@@ -87,17 +87,6 @@ function Home() {
             <div className="Home">
                 Home
             </div>
-            <div className="side_nav">
-                <button className="side">
-                    contact
-                </button>
-                <button className="side">
-                    about
-                </button>
-                <button className="side">
-                    setting
-                </button>
-            </div>
         </div>
         <div className="wrapper">
             <div className="header">
