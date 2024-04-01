@@ -18,7 +18,7 @@
 .nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     height: 50px;
     width: 100%;
     background: linear-gradient(45deg, #ffd199, #e0b8fa, #924fc9, #f4c0a4);
@@ -65,4 +65,23 @@
     align-items: center;
     justify-content: center;
     margin-top: 10px;
+}
+@media (max-width: 768px) {
+    .wrapper{
+        background-color: #fff;
+        background-image: none;
+    }
+    .cards{
+        margin-left: 175px;
+        gap: 50px;
+    }
+    .card{
+        width: 40%;
+        height: 200px;
+        gap: 50px;
+    }
+    .img_card{
+        width: 100%;
+        height: 200px;
+    }
 }
